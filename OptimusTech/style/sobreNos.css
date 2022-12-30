@@ -1,0 +1,50 @@
+.container__sobreNós{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobreNós-container{
+    width: 50%;
+    text-align: center;
+    padding: 4em 0;
+ }
+.container__texto-sobreNós{
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.container__titulo-sobreNós{
+    font-size: 48px;
+    font-weight: 600;
+    padding: 1em 0;
+}
+
+.container__texto{
+    font-size: 20px;
+    color: var(--cinza-claro);
+    flex-wrap: wrap;
+}
+
+.container__sobreNós-detalhes{
+    width: 280px;
+    padding: 2em 2em;
+    margin: 2em 0;
+}
+
+.container__valor{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.container__titulo-detalhes{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin: 1em 0;
+}
+
+.container__texto-detalhes{
+    color: var(--cinza-claro);
+}

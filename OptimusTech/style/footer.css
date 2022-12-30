@@ -1,0 +1,46 @@
+.container__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--cinza-muito-claro);
+    margin-top: 5em;
+}
+
+.container__footer-titulo{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 3em 0 1em 0;
+}
+
+.container__footer-texto{
+    font-size: 20px;
+    color: var(--cinza-claro);
+    margin-bottom: 2em;
+}
+
+.footer__input{
+    padding: 1em 5em;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    margin-right: 1em;
+}
+
+.container__footer::placeholder{
+    font-family: var(--font-principal);
+    color: var(--cinza-claro);
+    font-size: 16px;
+
+}
+
+.footer__botao{
+    background: var(--vermelho);
+    color: var(--branco-principal);
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.footer__direitosReservados{
+    color: var(--cinza-claro);
+    margin: 2em 0 5em 0;
+}

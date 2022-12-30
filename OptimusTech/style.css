@@ -1,0 +1,27 @@
+@import url(./style/cabecalho.css);
+@import url(./style/sobreNos.css);
+@import url(./style/vagasAbertas.css);
+@import url(./style/colaboradores.css);
+@import url(./style/footer.css);
+
+
+:root{
+    --branco-principal:#FFFFFF;
+    --vermelho: #8E2424;
+    --cinza-claro:#667085;
+    --cinza-muito-claro:#F9FAFB;
+    --preto:#101828;
+    --vermelho-claro:rgba(142, 36, 36, 0.05);
+    --vermelho-escuro:rgba(142, 36, 36, 1);
+    --font-principal:'Inter';
+    
+
+}
+
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-principal);
+    color: var(--preto);
+}

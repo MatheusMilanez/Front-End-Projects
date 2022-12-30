@@ -1,0 +1,37 @@
+.container__colaboradores-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 0;
+}
+
+.container__colaboradores{
+    text-align: center;
+    background: var(--vermelho-claro);
+    width: 60%;
+    padding: 2em 2em;
+}
+
+.colaboradoes__texto{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+    margin: 3em 0 1em 0;
+}
+
+.colaboradores__titulo{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.colaboradores__nome{
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.colaboradores__setor{
+    font-size: 14px;
+    color: var(--cinza-claro);
+}
